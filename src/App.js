@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import Home from "./components/Home";
 import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import Reader from "./Readers/Reader";
+import Home from "./components/Home/Home";
 function App() {
 	const [data, setData] = useState([]);
 	useEffect(() => {

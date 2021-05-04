@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import ReadersBody from "../Readers/ReadersBody";
-import FormContainer from "./Form/FormContainer";
+import ReadersBody from "../../Readers/ReadersBody";
+import FormContainer from "../Form/FormContainer";
 import "./Home.css";
-import Sidebar from "./Sidebar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 function Home({ data }) {
 	const [favReaders, setfavReaders] = useState([]);
 	const [formValue, setFormValue] = useState("");
