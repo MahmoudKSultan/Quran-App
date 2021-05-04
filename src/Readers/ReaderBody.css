@@ -1,0 +1,51 @@
+.readers-body {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.wrap {
+	flex: 0 0 33.3333%;
+	max-width: 33.333333%;
+}
+.data-box {
+	background-color: white;
+	padding: 20px 20px 30px 20px;
+	margin: 0 10px;
+	cursor: pointer;
+	transition: 0.3s;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wrap a {
+	text-decoration: none;
+}
+.data-box:hover {
+	background-color: #42ac00;
+}
+.data-box:hover * {
+	color: white !important;
+}
+.data-box:hover .rewaya {
+	opacity: 1;
+}
+
+.data-box .reader-name {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.data-box .rewaya {
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+.reader {
+	background-color: #eee;
+	display: flex;
+}

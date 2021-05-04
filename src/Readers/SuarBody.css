@@ -1,0 +1,54 @@
+.suarBody {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.suart-box {
+	flex: 50%;
+	max-width: 50%;
+}
+
+.surat {
+	display: flex;
+	background-color: white;
+	padding: 20px;
+	margin-left: 20px;
+	border-radius: 3px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	transition: 0.3s;
+}
+
+.surat:hover {
+	background-color: rgb(64, 206, 64);
+	color: white;
+}
+.surat:hover .icon {
+	border: 2px solid white !important;
+	cursor: pointer;
+}
+
+.surat .surat-info {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+.surat .surat-info > * {
+	margin-left: 12px;
+}
+
+.suart-box .icon {
+	border: 2px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7px;
+	border-radius: 50%;
+}
+
+.surat-media button {
+	margin: 0 5px;
+}
